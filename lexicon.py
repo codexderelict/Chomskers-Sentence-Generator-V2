@@ -1,5 +1,5 @@
 lexicon = {
-    "Det": ["the", "a"],
+    "Det": ["the", "a", "my", "your", "our"],
     "N": ["cat", "dog", "wankstain", "fun", "sex", "lady", "mink", "Hare Krishna", "shrine maiden", "Bar Mitzvah",
           "ontologist", "war criminal", "certified paralegal", "discount shaman", "middle manager", "Freemason",
           "sentient croissant", "substitute teacher", "licensed electrician", "cryptobro", "lifestyle coach",
