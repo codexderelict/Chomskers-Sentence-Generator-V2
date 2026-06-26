@@ -19,7 +19,7 @@ class CFG:
                 newSymbols.append(self.expand(self.rules[symbol])) # Then expand the RHS and repeat this procedure.
             else:
                 newSymbols.append(symbol) # Current level can't be expanded. 
-        return newSymbols # Return value so that at the maximum depth, list.append has something to append.
+        return newSymbols # Return value so that list.append has something to append.
     def flatten(self, symbols):
         result = []
         for symbol in symbols:
