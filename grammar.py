@@ -35,11 +35,13 @@ grammar6 = {
 }
 grammar7 = {
     "S": ["NP", "VP"],
-    "S'": ["NP", "VP'"]
+    "S'": ["NP", "VP'"],
     "VP": ["VP'", "Conj", "S'"], 
     "VP'": ["V_trans", "NP", "PP"],
     "PP": ["P", "NP"],
     "NP":["Det", "Adj", "N"]
 }
+# I fixed it. S' is now a proper non-terminal and it fits an English CFG. I have no clue why I didn't do this earlier. Probably because of sleep deprivation.
+# I need a Monster... 
 POSTags = ["Det", "N", "V_trans", "V_intr", "Adj", "Adv", "P", "C_n", "C_v", "Conj"]
 grammarList = [grammar1, grammar2, grammar3, grammar4, grammar5, grammar6, grammar7]
