@@ -26,4 +26,4 @@ grammar5 = {
     "PP": ["P", "NP"]
 }
 POSTags = ["Det", "N", "V_trans", "V_intr", "Adj", "Adv", "P"]
-grammarList = [grammar1, grammar2, grammar3, grammar4]
+grammarList = [grammar1, grammar2, grammar3, grammar4, grammar5]
