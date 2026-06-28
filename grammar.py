@@ -8,5 +8,16 @@ grammar2 = {
     "NP": ["Det", "Adj", "N"],
     "VP": ["V", "NP"]
 }
-POSTags = ["Det", "N", "V", "Adj", "Adv"]
-grammarList = [grammar1, grammar2]
+grammar3 = {
+    "S": ["NP", "VP"],
+    "NP": ["Det", "Adv", "Adj", "N"],
+    "VP": ["V", "NP", "Adv"]
+}
+grammar4 = {
+    "S": ["NP", "VP"],
+    "VP": ["V", "PP"],
+    "NP": ["Det", "Adj", "N"],
+    "PP": ["P NP"]
+}
+POSTags = ["Det", "N", "V", "Adj", "Adv", "P"]
+grammarList = [grammar1, grammar2, grammar3, grammar4]
