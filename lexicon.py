@@ -16,7 +16,7 @@ lexicon = {
                   "out-sources", "pardons", "patronizes", "platforms",
                   "privatizes", "psychoanalyzes", "publishes", "recruits",
                   "rehabilitates", "repatriates", "reschedules", "surveils",
-                  "traumatizes", "unfollows", "unionizes", "weaponizes", "masturbates"],
+                  "traumatizes", "unfollows", "unionizes", "weaponizes", ],
 
       "V_intr": ["ascends", "atones", "capitulates", "conspires", "converts",
             "copes", "defects", "deflects", "deliberates", "dissociates",
@@ -34,7 +34,7 @@ lexicon = {
             "Scandinavian", "compromised", "peer-reviewed", "lukewarm",
             "ambitious", "offensive", "unavailable",
             "undercooked", "burdened", "radicalised",
-            "uninvited", "earnest"],
+            "uninvited", "earnest", "masturbates"],
       "Adv": ["suddenly", "secretly", "offensively", "furiously", "sexily"],
       "P": ["about", "above", "across", "after", "against", "along", "amid", "among", "around", "at", "before", "behind", "below", "beneath",
             "beside", "between", "beyond", "by", "despite", "down", "during",
