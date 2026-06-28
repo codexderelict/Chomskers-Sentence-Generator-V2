@@ -27,7 +27,7 @@ lexicon = {
             "pontificates", "procrastinates", "protests", "radicalized",
             "rationalizes", "recuses", "relapses", "repents", "resigns",
             "retreats", "self-optimizes", "seethes", "spirals",
-            "testifies", "transitions", "unionizes", "volunteers", "masturbates"],
+            "testifies", "transitions", "unionizes", "volunteers", ],
       "Adj": ["stupid", "languid", "pharisaic", "bdelygmic", "lithe", "funny", "pornographic",
             "post-ironic", "depressed", "moist", "mediocre",
             "incarcerated", "unqualified", "irresponsible", "load-bearing",
@@ -43,6 +43,6 @@ lexicon = {
             "through", "throughout", "to", "toward", "under", "underneath",
             "until", "upon", "via", "with", "within", "without"],
       "C_n": ["that", "who"],
-      "Conj": ["and"]
+      "Conj": ["and", "while"]
 }
 # Everything after Bar Mitzvah, redpills, and "pornographic" is thanks to Claude. Thank you Claude! 
