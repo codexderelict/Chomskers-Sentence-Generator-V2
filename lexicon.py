@@ -20,7 +20,7 @@ lexicon = {
             "ambitious", "offensive", "unavailable",
             "undercooked", "burdened", "radicalised",
             "uninvited", "earnest"],
-      "Adv": ["suddenly", "secretly", "offensively", "furiously", "sexily", "with great force", "with great fervor"],
+      "Adv": ["suddenly", "secretly", "offensively", "furiously", "sexily"],
       "P": ["about", "above", "across", "after", "against", "along", "amid", "among", "around", "at", "before", "behind", "below", "beneath",
       "beside", "between", "beyond", "by", "despite", "down", "during",
       "except", "for", "from", "in", "inside", "into", "near", "of",

@@ -17,7 +17,7 @@ grammar4 = {
     "S": ["NP", "VP"],
     "VP": ["V", "PP"],
     "NP": ["Det", "Adj", "N"],
-    "PP": ["P NP"]
+    "PP": ["P", "NP"]
 }
 POSTags = ["Det", "N", "V", "Adj", "Adv", "P"]
 grammarList = [grammar1, grammar2, grammar3, grammar4]
