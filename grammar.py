@@ -23,7 +23,14 @@ grammar5 = {
     "S": ["NP'", "VP"],
     "NP'": ["Det", "Adj", "N", "C_n", "VP"],
     "VP": ["V_trans", "NP", "PP"],
-    "NP": {"Det", "Adj", "N"},
+    "NP": ["Det", "Adj", "N"],
+    "PP": ["P", "NP"],
+}
+grammar6 = {
+    "S": ["NP'", "VP"],
+    "NP'": ["Det", "Adj", "N", "C_n", "VP"],
+    "VP": ["V_trans", "NP"],
+    "NP": ["Det", "Adj", "N"],
     "PP": ["P", "NP"],
 }
 POSTags = ["Det", "N", "V_trans", "V_intr", "Adj", "Adv", "P", "C_n", "C_v"]
