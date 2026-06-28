@@ -16,7 +16,7 @@ lexicon = {
                   "out-sources", "pardons", "patronizes", "platforms",
                   "privatizes", "psychoanalyzes", "publishes", "recruits",
                   "rehabilitates", "repatriates", "reschedules", "surveils",
-                  "traumatizes", "unfollows", "unionizes", "weaponizes"],
+                  "traumatizes", "unfollows", "unionizes", "weaponizes", "masturbates"],
 
       "V_intr": ["ascends", "atones", "capitulates", "conspires", "converts",
             "copes", "defects", "deflects", "deliberates", "dissociates",
