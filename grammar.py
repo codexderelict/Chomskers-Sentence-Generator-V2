@@ -34,7 +34,7 @@ grammar6 = {
     "PP": ["P", "NP"],
 }
 grammar7 = {
-    "S": ["NP'", "VP"],
+    "S": ["NP", "VP"],
     "VP": ["VP'", "Conj", "VP'"],
     "VP'": ["V", "NP", "PP"],
     "PP": ["P", "NP"],
