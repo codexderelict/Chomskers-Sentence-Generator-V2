@@ -43,6 +43,6 @@ lexicon = {
             "through", "throughout", "to", "toward", "under", "underneath",
             "until", "upon", "via", "with", "within", "without"],
       "C_n": ["that", "who"],
-      "Conj": ["and", "while"]
+      "Conj": ["and", "while", "although", "because", "whenever"]
 }
 # Everything after Bar Mitzvah, redpills, and "pornographic" is thanks to Claude. Thank you Claude! 
