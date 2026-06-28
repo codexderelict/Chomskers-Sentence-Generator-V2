@@ -20,10 +20,11 @@ grammar4 = {
     "PP": ["P", "NP"]
 }
 grammar5 = {
-    "S": ["NP", "VP"],
-    "NP": ["Det", "Adj", "N"],
+    "S": ["NP'", "VP"],
+    "NP'": ["Det", "Adj", "N", "C_n", "VP"],
     "VP": ["V_trans", "NP", "PP"],
-    "PP": ["P", "NP"]
+    "NP": {"Det", "Adj", "N"},
+    "PP": ["P", "NP"],
 }
-POSTags = ["Det", "N", "V_trans", "V_intr", "Adj", "Adv", "P"]
+POSTags = ["Det", "N", "V_trans", "V_intr", "Adj", "Adv", "P", "C_n", "C_v"]
 grammarList = [grammar1, grammar2, grammar3, grammar4, grammar5]

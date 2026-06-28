@@ -41,6 +41,7 @@ lexicon = {
             "except", "for", "from", "in", "inside", "into", "near", "of",
             "off", "on", "onto", "out of", "outside", "over", "past", "since",
             "through", "throughout", "to", "toward", "under", "underneath",
-            "until", "upon", "via", "with", "within", "without"]
+            "until", "upon", "via", "with", "within", "without"],
+      "C_n": ["that", "who"]
 }
 # Everything after Bar Mitzvah, redpills, and "pornographic" is thanks to Claude. Thank you Claude! 
