@@ -37,7 +37,7 @@ grammar7 = {
     "S": ["NP", "VP"],
     "VP": ["VP'", "Conj", "NP", "VP'"], 
     # I know this is not how it works. I haven't slept last night and this is better than either S' or a RecursionError. I know it doesn't conform to how 
-    # English CFGs are written, but it's STILL valid from a formal language theory perspective. SO SUCK ON IT! 
+    # English CFGs are written, but it's STILL a valid CFG rule from a formal language theory perspective. A non-terminal on the LHS, a string on the RHS. SO SUCK ON IT! 
     "VP'": ["V_trans", "NP", "PP"],
     "PP": ["P", "NP"],
     "NP":["Det", "Adj", "N"]
