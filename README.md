@@ -22,8 +22,9 @@ Use whatever terminal you desire and run main.py. You'll find a sentence printed
 First of all, I learned how to implement a context-free grammar in Python using only standard data structures and no external libraries, as well as how to use recursion in a non-trivial way. I also learned why Lisp in all of its dialects is popular for symbolic programming; Python requires a good bit of effort for this kind of recursion. I'd like to implement this again in Racket, which is built for formal grammars. While I had to chew on nested arrays in Python, Lisp IS nested arrays. 
 
 # What future additions could I add?
-
+In the short term, new grammars and a wider lexicon, possibly allowing for user-created CFGs too (if an LHS isn't context-free, it might bug out, so I could put guardrails in place). 
+In the long term:
 1. Racket implementation (this should be the first thing; adding more functionality in Python's a pain)
 2. GPSG-style feature passing and agreement rules
-3. Possibly moving from context-free grammar to a mildly context-sensitive grammar for multilingual capabilities. Maybe. 
+3. Possibly moving from context-free grammar to a mildly context-sensitive grammar for multilingual capabilities. If I need nonsensical sentences in Bambara or Swiss German. Maybe. 
 4. Sentence representations in first-order logic (for fun!)
