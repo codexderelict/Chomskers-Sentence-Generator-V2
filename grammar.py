@@ -3,44 +3,10 @@ grammar1 = {
     "NP": ["Det", "N"],
     "VP": ["V_intr"]
 }
-grammar2 = {
-    "S": ["NP", "VP"],
-    "NP": ["Det", "Adj", "N"],
-    "VP": ["V_trans", "NP"]
-}
-grammar3 = {
-    "S": ["NP", "VP"],
-    "NP": ["Det", "Adv", "Adj", "N"],
-    "VP": ["V_trans", "NP", "Adv"]
-}
-grammar4 = {
-    "S": ["NP", "VP"],
-    "VP": ["V_intr", "PP"],
-    "NP": ["Det", "Adj", "N"],
-    "PP": ["P", "NP"]
-}
-grammar5 = {
-    "S": ["NP'", "VP"],
-    "NP'": ["Det", "Adj", "N", "C_n", "VP"],
-    "VP": ["V_trans", "NP", "PP"],
-    "NP": ["Det", "Adj", "N"],
-    "PP": ["P", "NP"],
-}
-grammar6 = {
-    "S": ["NP'", "VP"],
-    "NP'": ["Det", "Adj", "N", "C_n", "VP"],
-    "VP": ["V_trans", "NP"],
-    "NP": ["Det", "Adj", "N"],
-    "PP": ["P", "NP"],
-}
-grammar7 = {
-    "S": ["NP", "VP"],
-    "S_finite": ["NP", "VP'"],
-    "VP": ["VP'", "Conj", "S_finite"], 
-    "VP'": ["V_trans", "NP", "PP"],
-    "PP": ["P", "NP"],
-    "NP":["Det", "Adj", "N"]
-}
+
+# I deleted all of the grammars to make new ones that are more elegant and fit English CFG descriptions better. 
+
+
 # I fixed it. S' is now a proper non-terminal and it fits an English CFG. I have no clue why I didn't do this earlier. Probably because of sleep deprivation.
 # I need a Monster... 
 POSTags = ["Det", "N", "V_trans", "V_intr", "Adj", "Adv", "P", "C_n", "C_v", "Conj"]
