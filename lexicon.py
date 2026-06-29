@@ -43,6 +43,7 @@ lexicon = {
             "through", "throughout", "to", "toward", "under", "underneath",
             "until", "upon", "via", "with", "within", "without"],
       "C_n": ["that", "who"],
-      "Conj": ["and", "while", "although", "because", "whenever"]
+      "Conj_S": ["and", "while", "although", "because", "whenever"], # Conjugations that may connect sentences
+      "Conj_N": lexicon["Conj_S"][1:] # Conjugations that only connect words
 }
 # Everything after Bar Mitzvah, redpills, and "pornographic" is thanks to Claude. Thank you Claude! 
