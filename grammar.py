@@ -3,7 +3,7 @@ grammar1 = {
     "NP": ["Det", "N"],
     "VP": ["V_intr"]
 }
-grammar2: {
+grammar2 = {
     "S": ["S_finite","C","S_finite"],
     "S_finite": ["NP", "VP"],
     "NP":["DP", "N"],
@@ -11,7 +11,7 @@ grammar2: {
     "DP":["Det","Adj"],
 
 }
-grammar3: {
+grammar3 = {
     "S": ["NP", "VP"],
     "S_finite":["NP, VP_finite"],
     "VP":["V", "NP", "CP"],
