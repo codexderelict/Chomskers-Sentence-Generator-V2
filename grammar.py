@@ -15,6 +15,9 @@ grammar3 = {
     "S": ["NP", "VP"],
     "S_finite":["NP, VP_finite"],
     "VP":["V", "NP", "CP"],
+    "NP":["DP", "N"],
+    "DP":["Det", "AdjP"],
+    "AdjP":["Adv","Adj"],
     "CP":["Conj_S", "S_finite"],
     "VP_finite":["V", "NP"]
 
