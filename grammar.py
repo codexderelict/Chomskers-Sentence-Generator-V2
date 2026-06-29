@@ -19,7 +19,7 @@ grammar3 = {
     "DP":["Det", "AdjP"],
     "AdjP":["Adv","Adj"],
     "CP":["Conj_S", "S_finite"],
-    "VP_finite":["V", "NP"]
+    "VP_finite":["V_trans", "NP"]
 
 }
 # I deleted all of the grammars to make new ones that are more elegant and fit English CFG descriptions better. 
