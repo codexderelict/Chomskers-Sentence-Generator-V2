@@ -44,6 +44,6 @@ lexicon = {
             "until", "upon", "via", "with", "within", "without"],
       "C_n": ["that", "who"],
       "Conj_S": ["and", "while", "although", "because", "whenever"], # Conjugations that may connect sentences
-      "Conj_N": lexicon["Conj_S"][1:] # Conjugations that only connect words
+      "Conj_N":  ["while", "although", "because", "whenever"] # I guess I can't reference the entry when instantiating the dict. Cool.
 }
 # Everything after Bar Mitzvah, redpills, and "pornographic" is thanks to Claude. Thank you Claude! 
