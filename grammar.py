@@ -12,16 +12,18 @@ grammar2 = {
 
 }
 grammar3 = {
-    "S": ["NP", "VP"],
+    "S": ["NP_name", "VP"],
     "S_finite":["NP", "VP_finite"],
     "VP":["V_trans", "NP", "CP"],
     "NP":["DP", "N"],
+    "NP_name":["N_name"],
     "DP":["Det", "AdjP"],
     "AdjP":["Adv","Adj"],
     "CP":["Conj_S", "S_finite"],
     "VP_finite":["V_trans", "NP"]
 
 }
+
 # I deleted all of the grammars to make new ones that are more elegant and fit English CFG descriptions better. 
 
 POSTags = ["Det", "N", "V_trans", "V_intr", "Adj", "Adv", "P", "C_n", "C_v", "Conj"]

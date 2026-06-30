@@ -20,6 +20,8 @@ lexicon = {
           "crossing guard", "sommelier", "exiled prince", "court jester",
           "middle school principal", "forensic accountant", "Bigfoot researcher",
           "cruise director", "funeral clown", "minor deity", "shaman's intern", "troll", "gynecologist","chiropractor"],
+      "N_name":["Reimu Hakurei", "Jerry Seinfeld", "Sayaka Miki","Homura Akemi","General Butt Naked","Michael Richards","Idi Amin","Elijah Mohammad",
+      "Wallace D. Fard", "Sanae Kochiya","Scott Brown","S3RL","DJ Income Tax","Prester John"],
  
     "V_trans": ["abducts", "baptizes", "commodifies", "debriefs", "defunds",
                 "delegitimizes", "destabilizes", "doxes", "embezzles from",
