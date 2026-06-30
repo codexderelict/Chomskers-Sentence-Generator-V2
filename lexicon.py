@@ -19,7 +19,7 @@ lexicon = {
           "speech therapist", "alderman", "necromancer's apprentice", "yoga instructor",
           "crossing guard", "sommelier", "exiled prince", "court jester",
           "middle school principal", "forensic accountant", "Bigfoot researcher",
-          "cruise director", "funeral clown", "minor deity", "shaman's intern", "troll", "gynecologist","chiropractor"],
+          "cruise director", "funeral clown", "minor deity", "shaman's intern", "troll", "gynecologist","chiropractor","anime girl"],
       "N_name":["Reimu Hakurei", "Jerry Seinfeld", "Sayaka Miki","Homura Akemi","General Butt Naked","Michael Richards","Idi Amin","Elijah Mohammad",
       "Wallace D. Fard", "Sanae Kochiya","DJ Scott Brown","S3RL","DJ Income Tax","Prester John"],
  
