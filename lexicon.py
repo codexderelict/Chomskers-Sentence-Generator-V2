@@ -96,12 +96,11 @@ lexicon = {
  
     "C_n": ["that", "who", "whom", "whose", "which"],
  
-    "Conj_S": ["and", "while", "although", "because", "whenever", "unless",
+    "Conj_c": ["and", "while", "although", "because", "whenever", "unless",
                "until", "since", "though", "if", "even though", "once",
-               "provided that", "as though", "lest"],  # Conjugations that may connect sentences
+               "provided that", "as though", "lest"],  # Conjugations that may connect full clauses.
  
-    "Conj_N": ["while", "although", "because", "whenever", "unless", "until",
-               "since", "though", "even though", "once", "provided that",
-               "as though", "lest"]  # I guess I can't reference the entry when instantiating the dict. Cool.
+    "Conj_p": ["and","or"]  # I guess I can't reference the entry when instantiating the dict.
+    # Phrasal, i.e. can only take phrases as arguments. I could split hairs with this, though.
 }
 # Everything after Bar Mitzvah, redpills, and "pornographic" is thanks to Claude. Thank you Claude!
