@@ -101,6 +101,6 @@ lexicon = {
                "provided that", "as though", "lest"],  # Conjugations that may connect full clauses.
  
     "Conj_p": ["and","or"]  # I guess I can't reference the entry when instantiating the dict.
-    # Phrasal, i.e. can only take phrases as arguments. I could split hairs with this, though.
+    # Phrasal, i.e. can potentially take phrases as arguments. I could split hairs with this, though.
 }
 # Everything after Bar Mitzvah, redpills, and "pornographic" is thanks to Claude. Thank you Claude!

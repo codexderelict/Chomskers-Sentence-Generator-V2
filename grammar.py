@@ -4,7 +4,7 @@ grammar1 = {
     "VP": ["V_intr"]
 }
 grammar2 = {
-    "S": ["S_finite","Conj_S","S_finite"],
+    "S": ["S_finite","Conj_c","S_finite"],
     "S_finite": ["NP", "VP"],
     "NP":["DP", "N"],
     "VP":["V_trans", "NP"],
@@ -19,7 +19,7 @@ grammar3 = {
     "NP_name":["N_name"],
     "DP":["Det", "AdjP"],
     "AdjP":["Adv","Adj"],
-    "CP":["Conj_S", "S_finite"],
+    "CP":["Conj_c", "S_finite"],
     "VP_finite":["V_trans", "NP"]
 
 }
