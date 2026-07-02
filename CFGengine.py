@@ -46,5 +46,5 @@ class CFG:
                 if self.currentSymbols[index+1].startswith(vowels):
                     self.currentSymbols[index] = "an"
 
-    def display(self):
-        print(" ".join(self.currentSymbols))    
+    def returnString(self):
+        return " ".join(self.currentSymbols)

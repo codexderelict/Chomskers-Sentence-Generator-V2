@@ -5,6 +5,7 @@ def main():
     cfg = CFG(random.choice(grammarList))
     cfg.pickWords()
     cfg.detAgree()
-    cfg.display()
+    string = cfg.returnString()
+    print(string)
 if __name__ == "__main__":
     main()
