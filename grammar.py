@@ -19,7 +19,7 @@ grammar3 = {
     "NP_name":["N_name"],
     "DP":["Det", "AdjP"],
     "AdjP":["Adv","Adj"],
-    "CP":["Conj_S", "S_finite"],
+    "CP":["Conj_c", "S_finite"],
     "VP_finite":["V_trans", "NP"]
 
 }
